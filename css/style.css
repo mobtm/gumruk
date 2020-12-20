@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.uk-navbar-container:not(.uk-navbar-transparent){
+    background-color: #045f4b;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    color: #fff;
+}
+
+.uk-navbar-nav>li.uk-active>a:hover {
+    color: yellow;
+}
+
+.uk-navbar-nav >li>a:hover,
+.uk-navbar-nav > li > a:focus-visible,
+.uk-navbar-nav > li > a:focus,
+.uk-navbar-nav >li>a.uk-open {
+    color: yellow;
+}
+
+.uk-navbar-nav>li>a {
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    transition-property: color,background-color;
+}
+
+a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.custom-btn-success{
+    background-color:  #045f4b;
+    color: #fff;
+}
+
+.custom-btn-success:hover{
+    background-color: #045f4b;
+    color: #fff;
+}
